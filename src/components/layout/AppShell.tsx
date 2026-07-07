@@ -10,9 +10,12 @@ import { DocumentPreviewPane } from '@/components/preview/DocumentPreviewPane';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { SettingsModal } from '@/components/settings/SettingsModal';
 import { GenerationModal } from '@/components/ai/GenerationModal';
+import { AuditModal } from '@/components/ai/AuditModal';
+import { AuditProgressModal } from '@/components/ai/AuditProgressModal';
 import { ValidationPanel } from '@/components/validation/ValidationPanel';
 import { StyleManagerModal } from '@/components/settings/StyleManagerModal';
 import { ProjectTemplateModal } from '@/components/settings/ProjectTemplateModal';
+import { WordImportModal } from '@/components/word/WordImportModal';
 import { ContextMenu } from '@/components/ai/ContextMenu';
 import { useUIStore } from '@/stores';
 
@@ -77,9 +80,12 @@ export function AppShell() {
       <StatusBar />
       <SettingsModal />
       <GenerationModal />
+      <AuditModal />
+      <AuditProgressModal />
       <ValidationPanel />
       <StyleManagerModal />
       <ProjectTemplateModal />
+      <WordImportModal />
       <ContextMenu />
     </div>
   );

@@ -44,6 +44,7 @@ pub fn run() {
             commands::project_metadata::load_project_assets,
             commands::project_metadata::import_asset_bytes,
             commands::project_metadata::extract_docx_media,
+            commands::project_metadata::file_path_exists,
             commands::settings::store_api_key,
             commands::settings::get_api_key,
             commands::settings::delete_api_key,

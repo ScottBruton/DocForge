@@ -1,4 +1,5 @@
 import { useSettingsStore } from '@/stores';
+import { DEFAULT_TEXT_MODEL, DEFAULT_VISION_MODEL } from '@/lib/openaiModels';
 import { invoke } from '@tauri-apps/api/core';
 import { useEffect } from 'react';
 import { isOpenAIKeyFromEnv } from '@/lib/env';
@@ -58,18 +59,36 @@ export function AiSettingsPanel() {
         <input
           className="mt-1 w-full rounded border border-zinc-700 bg-zinc-950 px-2 py-1.5 text-sm"
           value={settings.defaultModel}
+          list="openai-text-models"
           onChange={(e) => updateSettings({ defaultModel: e.target.value })}
         />
+        <span className="mt-1 block text-[10px] text-zinc-600">
+          Recommended: {DEFAULT_TEXT_MODEL}. Mini/lightweight models are upgraded to {DEFAULT_TEXT_MODEL} for AI Audit and generation.
+        </span>
       </label>
+
+      <datalist id="openai-text-models">
+        <option value="gpt-4o" />
+        <option value="gpt-4.1" />
+        <option value="gpt-4-turbo" />
+      </datalist>
 
       <label className="block text-xs text-zinc-400">
         Vision Model
         <input
           className="mt-1 w-full rounded border border-zinc-700 bg-zinc-950 px-2 py-1.5 text-sm"
           value={settings.visionModel}
+          list="openai-vision-models"
           onChange={(e) => updateSettings({ visionModel: e.target.value })}
         />
+        <span className="mt-1 block text-[10px] text-zinc-600">
+          Recommended: {DEFAULT_VISION_MODEL}
+        </span>
       </label>
+
+      <datalist id="openai-vision-models">
+        <option value="gpt-4o" />
+      </datalist>
 
       <div className="grid grid-cols-2 gap-3">
         <label className="block text-xs text-zinc-400">

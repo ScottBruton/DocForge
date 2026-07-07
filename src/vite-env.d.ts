@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_OPENAI_API_KEY?: string;
+  readonly VITE_OPENAI_DEFAULT_MODEL?: string;
 }
 
 interface ImportMeta {

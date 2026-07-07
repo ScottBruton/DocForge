@@ -1,4 +1,4 @@
-import { useDocumentStore, useProjectStore, useUIStore, useAIStore } from '@/stores';
+import { useDocumentStore, useProjectStore, useUIStore, useAIStore, useAuditStore, useWordImportStore } from '@/stores';
 import { ProjectService } from '@/services/ProjectService';
 import { WordService } from '@/services/word/WordService';
 import { WordImportService } from '@/services/word/WordImportService';
@@ -8,14 +8,14 @@ import { useAssetStore } from '@/stores/assetStore';
 import { useStyleStore } from '@/stores/styleStore';
 import {
   FilePlus, FolderOpen, Save, Download, Sparkles, CheckCircle, Settings, Palette,
-  FileInput, FileType, RefreshCw, Eye,
+  FileInput, FileType, RefreshCw, Eye, ClipboardCheck, FileDown,
 } from 'lucide-react';
 import { useState } from 'react';
 
 export function Toolbar() {
   const isDirty = useDocumentStore((s) => s.isDirty);
   const isSaving = useProjectStore((s) => s.isSaving);
-  const isLoading = useProjectStore((s) => s.isLoading);
+  const isImporting = useWordImportStore((s) => s.isImporting);
   const projectPath = useProjectStore((s) => s.projectPath);
   const linkedWord = useProjectStore((s) => s.linkedWordDocument);
   const setSettingsOpen = useUIStore((s) => s.setSettingsOpen);
@@ -23,6 +23,7 @@ export function Toolbar() {
   const setStyleManagerOpen = useUIStore((s) => s.setStyleManagerOpen);
   const setProjectTemplateOpen = useUIStore((s) => s.setProjectTemplateOpen);
   const setModalOpen = useAIStore((s) => s.setModalOpen);
+  const setAuditModalOpen = useAuditStore((s) => s.setModalOpen);
   const previewOpen = useUIStore((s) => s.previewOpen);
   const previewDetached = useUIStore((s) => s.previewDetached);
   const togglePreview = useUIStore((s) => s.togglePreview);
@@ -42,8 +43,16 @@ export function Toolbar() {
   };
 
   const handleImportWord = async () => {
+    if (isImporting) return;
     setSyncMessage(null);
     await WordImportService.importWordDocument();
+  };
+
+  const handleRefreshWord = async () => {
+    if (isImporting) return;
+    setSyncMessage(null);
+    const ok = await WordImportService.refreshWordContent();
+    if (ok) setSyncMessage('Content refreshed from Word');
   };
 
   const handleUpdateWord = async () => {
@@ -56,7 +65,13 @@ export function Toolbar() {
     setSyncMessage(result.success ? 'Word document updated' : result.message);
     if (result.success) {
       const linked = await import('@tauri-apps/api/core').then((m) =>
-        m.invoke<{ word_path: string; imported_at: string; last_synced_at?: string; original_filename: string } | null>(
+        m.invoke<{
+          word_path: string;
+          imported_at: string;
+          last_synced_at?: string;
+          original_filename: string;
+          source_path?: string | null;
+        } | null>(
           'get_linked_word_document',
           { projectPath },
         ),
@@ -70,7 +85,7 @@ export function Toolbar() {
       <span className="mr-3 text-sm font-semibold text-zinc-200">DocForge</span>
       <ToolbarButton icon={<FilePlus size={14} />} label="New" onClick={() => ProjectService.createNew()} shortcut="Ctrl+N" />
       <ToolbarButton icon={<FolderOpen size={14} />} label="Open" onClick={() => ProjectService.open()} shortcut="Ctrl+O" />
-      <ToolbarButton icon={<FileInput size={14} />} label="Import Word" onClick={handleImportWord} loading={isLoading} />
+      <ToolbarButton icon={<FileInput size={14} />} label="Import Word" onClick={handleImportWord} loading={isImporting} disabled={isImporting} />
       <ToolbarButton icon={<Save size={14} />} label="Save" onClick={() => ProjectService.save()} shortcut="Ctrl+S" active={isDirty} loading={isSaving} />
       <div className="mx-1 h-4 w-px bg-zinc-700" />
       <ToolbarButton
@@ -92,16 +107,32 @@ export function Toolbar() {
       <ToolbarButton icon={<Download size={14} />} label="Export DOCX" onClick={handleExportDocx} />
       <ToolbarButton icon={<Download size={14} />} label="Export JSON" onClick={() => ProjectService.exportJson()} />
       {linkedWord && (
-        <ToolbarButton
-          icon={<RefreshCw size={14} />}
-          label="Update Word"
-          onClick={handleUpdateWord}
-          accent
-          title={`Push changes to ${linkedWord.original_filename}`}
-        />
+        <>
+          <ToolbarButton
+            icon={<FileDown size={14} />}
+            label="Refresh Content"
+            onClick={handleRefreshWord}
+            loading={isImporting}
+            disabled={isImporting}
+            title={
+              linkedWord.source_path
+                ? `Re-import from ${linkedWord.original_filename}`
+                : `Re-import from ${linkedWord.original_filename} (select file if moved)`
+            }
+          />
+          <ToolbarButton
+            icon={<RefreshCw size={14} />}
+            label="Update Word"
+            onClick={handleUpdateWord}
+            accent
+            disabled={isImporting}
+            title={`Push changes to ${linkedWord.original_filename}`}
+          />
+        </>
       )}
       <div className="mx-1 h-4 w-px bg-zinc-700" />
       <ToolbarButton icon={<Sparkles size={14} />} label="Generate AI" onClick={() => setModalOpen(true)} shortcut="Ctrl+G" accent />
+      <ToolbarButton icon={<ClipboardCheck size={14} />} label="AI Audit" onClick={() => setAuditModalOpen(true)} accent />
       <ToolbarButton icon={<CheckCircle size={14} />} label="Validate" onClick={() => setValidationOpen(true)} />
       <div className="flex-1" />
       {syncMessage && <span className="mr-2 text-[10px] text-green-400">{syncMessage}</span>}
@@ -113,7 +144,7 @@ export function Toolbar() {
 }
 
 function ToolbarButton({
-  icon, label, onClick, shortcut, active, loading, accent, title,
+  icon, label, onClick, shortcut, active, loading, disabled, accent, title,
 }: {
   icon: React.ReactNode;
   label: string;
@@ -121,6 +152,7 @@ function ToolbarButton({
   shortcut?: string;
   active?: boolean;
   loading?: boolean;
+  disabled?: boolean;
   accent?: boolean;
   title?: string;
 }) {
@@ -129,8 +161,8 @@ function ToolbarButton({
       type="button"
       title={title ?? (shortcut ? `${label} (${shortcut})` : label)}
       onClick={onClick}
-      disabled={loading}
-      className={`flex items-center gap-1.5 rounded px-2 py-1 text-xs transition-colors ${
+      disabled={loading || disabled}
+      className={`flex items-center gap-1.5 rounded px-2 py-1 text-xs transition-colors disabled:opacity-50 ${
         accent
           ? 'text-violet-300 hover:bg-violet-900/40'
           : active

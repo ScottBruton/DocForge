@@ -54,7 +54,8 @@ pub fn init_project_db(path: &Path) -> Result<()> {
             word_path TEXT NOT NULL,
             imported_at TEXT NOT NULL,
             last_synced_at TEXT,
-            original_filename TEXT NOT NULL
+            original_filename TEXT NOT NULL,
+            source_path TEXT
         );",
     )?;
     migrate_project_db(&conn)?;
@@ -102,9 +103,24 @@ fn migrate_project_db(conn: &Connection) -> Result<()> {
             word_path TEXT NOT NULL,
             imported_at TEXT NOT NULL,
             last_synced_at TEXT,
-            original_filename TEXT NOT NULL
+            original_filename TEXT NOT NULL,
+            source_path TEXT
         );",
     )?;
+
+    let linked_columns: Vec<String> = conn
+        .prepare("PRAGMA table_info(linked_word_document)")?
+        .query_map([], |row| row.get::<_, String>(1))?
+        .filter_map(|r| r.ok())
+        .collect();
+
+    if !linked_columns.is_empty() && !linked_columns.contains(&"source_path".to_string()) {
+        conn.execute(
+            "ALTER TABLE linked_word_document ADD COLUMN source_path TEXT",
+            [],
+        )?;
+    }
+
     Ok(())
 }
 

@@ -5,6 +5,7 @@ export interface LinkedWordDocumentInfo {
   imported_at: string;
   last_synced_at?: string | null;
   original_filename: string;
+  source_path?: string | null;
 }
 
 export interface ProjectTemplateInfo {

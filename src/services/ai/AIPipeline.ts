@@ -6,6 +6,7 @@ import { useSettingsStore } from '@/stores/settingsStore';
 import { useAIStore } from '@/stores/aiStore';
 import type { AIGenerationStep } from '@/stores/aiStore';
 import { DocumentSchema } from '@/schema';
+import { resolveQualityTextModel, resolveVisionModel } from '@/lib/openaiModels';
 
 export interface GenerationOptions {
   prompt: string;
@@ -87,8 +88,10 @@ ${assetContext}`;
       this.setStep('generating_sections');
       this.log('Generating sections');
 
+      const textModel = resolveQualityTextModel(settings.defaultModel);
+
       const response = await client.chat.completions.create({
-        model: settings.defaultModel,
+        model: textModel,
         temperature: settings.temperature,
         max_tokens: settings.maxTokens,
         response_format: { type: 'json_object' },
@@ -148,7 +151,7 @@ ${assetContext}`;
   private static async repairJson(client: OpenAI, raw: string, error: string): Promise<string> {
     const { settings } = useSettingsStore.getState();
     const response = await client.chat.completions.create({
-      model: settings.defaultModel,
+      model: resolveQualityTextModel(settings.defaultModel),
       temperature: 0.2,
       max_tokens: settings.maxTokens,
       response_format: { type: 'json_object' },
@@ -170,7 +173,7 @@ ${assetContext}`;
     const client = AIPipeline.getClient();
     const { settings } = useSettingsStore.getState();
     const response = await client.chat.completions.create({
-      model: settings.defaultModel,
+      model: resolveQualityTextModel(settings.defaultModel),
       temperature: settings.temperature,
       max_tokens: 2048,
       response_format: { type: 'json_object' },

@@ -31,6 +31,7 @@ pub struct LinkedWordDocument {
     pub imported_at: String,
     pub last_synced_at: Option<String>,
     pub original_filename: String,
+    pub source_path: Option<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -238,18 +239,20 @@ pub fn link_word_document(
         imported_at: now.clone(),
         last_synced_at: None,
         original_filename: filename,
+        source_path: Some(source_path.clone()),
     };
 
     let conn = open_project_conn(&project)?;
     conn.execute(
-        "INSERT INTO linked_word_document (id, word_path, imported_at, last_synced_at, original_filename)
-         VALUES ('default', ?1, ?2, NULL, ?3)
+        "INSERT INTO linked_word_document (id, word_path, imported_at, last_synced_at, original_filename, source_path)
+         VALUES ('default', ?1, ?2, NULL, ?3, ?4)
          ON CONFLICT(id) DO UPDATE SET
            word_path = excluded.word_path,
            imported_at = excluded.imported_at,
            last_synced_at = NULL,
-           original_filename = excluded.original_filename",
-        params![linked.word_path, now, linked.original_filename],
+           original_filename = excluded.original_filename,
+           source_path = excluded.source_path",
+        params![linked.word_path, now, linked.original_filename, source_path],
     )
     .map_err(|e| e.to_string())?;
 
@@ -266,7 +269,7 @@ pub fn get_linked_word_document(project_path: String) -> Result<Option<LinkedWor
     let conn = open_project_conn(&project)?;
     let mut stmt = conn
         .prepare(
-            "SELECT word_path, imported_at, last_synced_at, original_filename
+            "SELECT word_path, imported_at, last_synced_at, original_filename, source_path
              FROM linked_word_document WHERE id = 'default'",
         )
         .map_err(|e| e.to_string())?;
@@ -277,6 +280,7 @@ pub fn get_linked_word_document(project_path: String) -> Result<Option<LinkedWor
             imported_at: row.get(1).map_err(|e| e.to_string())?,
             last_synced_at: row.get(2).ok(),
             original_filename: row.get(3).map_err(|e| e.to_string())?,
+            source_path: row.get(4).ok(),
         }))
     } else {
         Ok(None)
@@ -324,6 +328,11 @@ pub fn write_linked_word_document(
     .map_err(|e| e.to_string())?;
 
     Ok(dest_path.to_string_lossy().to_string())
+}
+
+#[tauri::command]
+pub fn file_path_exists(file_path: String) -> bool {
+    PathBuf::from(file_path).is_file()
 }
 
 #[tauri::command]

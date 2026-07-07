@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { ChevronRight } from 'lucide-react';
-import { useProjectStore, useDocumentStore } from '@/stores';
+import { useProjectStore, useDocumentStore, useWordImportStore } from '@/stores';
 import { ProjectService } from '@/services/ProjectService';
 import { WordImportService } from '@/services/word/WordImportService';
 import { WordService } from '@/services/word/WordService';
@@ -18,6 +18,8 @@ export function MenuBar() {
   const barRef = useRef<HTMLDivElement>(null);
   const recentProjects = useProjectStore((s) => s.recentProjects);
   const projectPath = useProjectStore((s) => s.projectPath);
+  const linkedWord = useProjectStore((s) => s.linkedWordDocument);
+  const isImporting = useWordImportStore((s) => s.isImporting);
 
   const closeMenus = useCallback(() => {
     setOpenMenu(null);
@@ -100,7 +102,18 @@ export function MenuBar() {
             />
             <MenuItem label="Save As…" onClick={() => runAndClose(() => ProjectService.saveAs())} />
             <MenuSeparator />
-            <MenuItem label="Import Word…" onClick={() => runAndClose(() => { void WordImportService.importWordDocument(); })} />
+            <MenuItem
+              label="Import Word…"
+              disabled={isImporting}
+              onClick={() => runAndClose(() => { void WordImportService.importWordDocument(); })}
+            />
+            {linkedWord && (
+              <MenuItem
+                label="Refresh Content from Word"
+                disabled={isImporting}
+                onClick={() => runAndClose(() => { void WordImportService.refreshWordContent(); })}
+              />
+            )}
             <MenuItem label="Export DOCX…" onClick={() => runAndClose(handleExportDocx)} />
             <MenuItem label="Export JSON…" onClick={() => runAndClose(() => ProjectService.exportJson())} />
             <MenuSeparator />

@@ -3,6 +3,8 @@ export { useSelectionStore } from './selectionStore';
 export { useAssetStore } from './assetStore';
 export { useStyleStore } from './styleStore';
 export { useAIStore } from './aiStore';
+export { useAuditStore } from './auditStore';
 export { useProjectStore } from './projectStore';
 export { useUIStore } from './uiStore';
 export { useSettingsStore } from './settingsStore';
+export { useWordImportStore } from './wordImportStore';
