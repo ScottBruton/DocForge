@@ -1,0 +1,5349 @@
+{
+  "metadata": {
+    "title": "tp02cmc spb260424r1e Cleanability Verification Protocols",
+    "author": "",
+    "description": "Imported from Word document",
+    "createdAt": "2026-07-06T23:18:58.662Z",
+    "modifiedAt": "2026-07-07T00:09:30.104Z",
+    "templateId": "imported-word",
+    "version": "1.0.0"
+  },
+  "sections": [
+    {
+      "id": "33bb165b-2330-4c9a-937f-bb8e0e16c0a9",
+      "title": "Content",
+      "order": 0,
+      "collapsed": true,
+      "blocks": [
+        {
+          "id": "bac9c58e-2a0c-4964-a8ac-05c1d4ea7b64",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Test Protocols",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Test Protocols"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "7d7e34f3-b2bd-40c6-9970-c3d65afa8767",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Cleanability Verification Test Protocols",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cleanability Verification Test Protocols"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "82e70921-8dae-4975-a52d-22ba86605f21",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "79e055e2-9c37-493a-aefa-a9d1f4b96dcf",
+                "width": 120
+              },
+              {
+                "id": "d6d60eca-7c0b-497c-bad3-b53b64197848",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "cde60ca1-576d-4018-93ca-f896596a8252",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "DRN:",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "tp02cmc-spb260424r1",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "81fd3a72-2c4b-417c-802c-d6de2baeb430",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1bf390b8-9246-41e1-925a-da39aa6c3019",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "31c4255d-0fc9-4ba7-bccb-31d326ea0a07",
+                "width": 120
+              },
+              {
+                "id": "9349ccef-7d0f-4a1c-8b65-77d444d9c388",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "36d0ee3f-9157-4439-9640-29be50f06dd8",
+                "height": 28
+              },
+              {
+                "id": "3c7dc272-a958-438d-b3ef-de8fd7c0bad9",
+                "height": 28
+              },
+              {
+                "id": "dda5e27f-62d3-4d7a-9a12-d380a4af5d28",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Client",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "EchoNous. Inc.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "Project Name",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Continuous Monitoring Cardiac Ultrasound",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "Project Code",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "CMC",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "aa4e01ea-c9ec-4f69-beaa-476aa36fa048",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "7935ad24-b7c0-4467-9f61-77fbf7f5d179",
+                "width": 120
+              },
+              {
+                "id": "5a756299-5465-465d-bb75-74602ba1f169",
+                "width": 120
+              },
+              {
+                "id": "34cbc40d-0b25-4ef4-a1e9-00fa86cf12de",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "d3f3108b-824f-486c-8ce2-6b598392957f",
+                "height": 28
+              },
+              {
+                "id": "85606782-7ef2-495b-9fb2-d6a87b898c5b",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Revision",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Revision History / Change Details",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "value": "Date",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "1",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Initial Release",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "value": "Per approval date",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "cfb865b2-3a3c-4c73-8da8-7c3d2fcf8b08",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "a884a911-23cc-4d43-8a57-40732b9abd4c",
+                "width": 120
+              },
+              {
+                "id": "d2cf9244-fbf8-456f-b75d-822c0a9d69f5",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "ac526043-f21f-4142-b3b9-c65f07afa1ee",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Doc Review Reference:",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "N/A",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "a9a9cd6c-b203-4891-a40e-54d4b548ff59",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Authorisation",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Authorisation"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "48f105db-9548-4587-9000-04d61bff3fe6",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.661Z",
+            "modifiedAt": "2026-07-06T23:18:58.661Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "c3d8bd0b-f98d-4f95-a334-1debad482396",
+                "width": 120
+              },
+              {
+                "id": "ee007906-786f-4188-87ef-5b915817a04a",
+                "width": 120
+              },
+              {
+                "id": "51f24cc9-1e5e-4738-8d51-ba1b4b5fa590",
+                "width": 120
+              },
+              {
+                "id": "6ca31a5b-0e2a-483c-a4ca-d19e44b125f2",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "1a3be003-79b3-47b3-909d-2d3c002479c5",
+                "height": 28
+              },
+              {
+                "id": "1420c252-3a9d-4fd1-a4af-c102ac4effd3",
+                "height": 28
+              },
+              {
+                "id": "0092c936-babc-432c-b696-02e6a4ac2de7",
+                "height": 28
+              },
+              {
+                "id": "65b59de7-8e36-4757-ab5b-0da21064ffb2",
+                "height": 28
+              },
+              {
+                "id": "1eae02a8-51d6-4ec9-8325-bfe8cfa4aa61",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Name",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "value": "Function",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "value": "Date",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "Originator",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Scott Bruton",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "value": "Senior Product Developer",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "value": "05-Jun-2026",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "Reviewer",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "Andrew Hung",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "value": "Head of Mechanical Engineering",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "value": "11-Jun-2026",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "Approver",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "Jack Campbell",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "value": "Product Leader",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "value": "Signature & Date",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "5c90e977-c668-412d-a469-1e906f20cde4",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table of Contents",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table of Contents"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "d4aa53cc-49f3-4cc0-92bb-bb409f66396e",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "1. Aim 4",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "1. Aim 4"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "f1282967-5bfa-4973-858b-0687b4c41e77",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "2. Scope 5",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "2. Scope 5"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "161547a3-0ed2-47d5-bfb3-598aa9448dd9",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3. Test Procedure(s) 6",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3. Test Procedure(s) 6"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "84471509-a1cb-4547-afc1-f213571b71fb",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3.1. Common Chemical Compatibility Exposure Method 7",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3.1. Common Chemical Compatibility Exposure Method 7"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "df5a3bc3-a65b-47cf-be6f-8882d9c2d7e8",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3.2. IPA Chemical Compatibility Verification 9",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3.2. IPA Chemical Compatibility Verification 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "68ebe164-50e8-4419-b08d-f75243756f9e",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3.3. Ethanol Chemical Compatibility Verification 11",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3.3. Ethanol Chemical Compatibility Verification 11"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "60e707a5-de3d-41e3-b1b9-61f22c95fa79",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3.4. Hydrogen Peroxide Compatibility Verification 13",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3.4. Hydrogen Peroxide Compatibility Verification 13"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "b0a9018e-8f5f-4109-a0ce-00770d1b5a13",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "3.5. Sodium Hypochlorite Compatibility Verification 15",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3.5. Sodium Hypochlorite Compatibility Verification 15"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "394473e0-b605-44a3-ae4c-be6f8c5767ae",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "4. References 17",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "4. References 17"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6da7b26e-1f59-428e-a50b-8981833d00d4",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "5. Abbreviations and Definitions 17",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "5. Abbreviations and Definitions 17"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4a3451db-5f49-4c5a-b7f9-3ce3335eabf2",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "List of Figures",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "List of Figures"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "e750ee7e-8fe7-424a-bb58-ddef4c982a9f",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 1: CMC-A-020 CMC Assembly 5",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 1: CMC-A-020 CMC Assembly 5"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "c1532e33-ee06-438e-aecc-3314248d4867",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 2: Indication of IDS corners available for testing 7",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 2: Indication of IDS corners available for testing 7"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "e1f31092-0953-4993-a351-379bb6508571",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 3: Representative IDS Assembly For Testing 9",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 3: Representative IDS Assembly For Testing 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "39b3514e-b3ca-464a-8318-8dff003601b1",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "List of Tables",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "List of Tables"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "52512882-5fc2-46b3-a08d-caed1ac734e7",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table 1 - Abbreviations 17",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table 1 - Abbreviations 17"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "b21f9524-d5e8-45cb-a132-0eb33c938ab9",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table 2 - Definitions 17",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table 2 - Definitions 17"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "051c95b5-89c3-46a8-9d1c-f7fb498f377c",
+      "title": "Aim",
+      "order": 1,
+      "collapsed": false,
+      "blocks": [
+        {
+          "id": "ad71c00e-e7b5-4521-993a-4c4b8acd2747",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "This protocol defines the internal bench test and inspection verification procedures, including the test methods, test configurations, DUTs, sample selection, sample-size rationale, acceptance criteria, and test records required to verify the applicable cleanability requirements identified in the Traceability Matrix [Ref. 1], in accordance with the approved IDS Design Verification Plan [Ref. 3].",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "This protocol defines the internal bench test and inspection verification procedures, including the test methods, test configurations, DUTs, sample selection, sample-size rationale, acceptance criteria, and test records required to verify the applicable cleanability requirements identified in the Traceability Matrix [Ref. 1], in accordance with the approved IDS Design Verification Plan [Ref. 3]."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "0f69fde4-12a6-4327-87f2-2643e9f0203d",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "9688259b-6b24-4f8f-b129-f0a82fce7555",
+                "width": 120
+              },
+              {
+                "id": "ec8fc931-5a33-4912-9c0b-7e8b31cd8e58",
+                "width": 120
+              },
+              {
+                "id": "49ffc77f-128f-4a8e-b94e-5fc80efc1a64",
+                "width": 120
+              },
+              {
+                "id": "4a686e96-019a-422c-93f3-654151873dd8",
+                "width": 120
+              },
+              {
+                "id": "602a2e72-c33c-40d3-8d08-a66041093e03",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "1ed8e362-9e6c-4192-9d47-c224f2c18c0c",
+                "height": 28
+              },
+              {
+                "id": "30f08ce2-06b9-4dea-8a2b-0f969baf039c",
+                "height": 28
+              },
+              {
+                "id": "7db8c341-fb2d-41aa-8aaf-d7a300e98537",
+                "height": 28
+              },
+              {
+                "id": "3925c32e-0014-44f8-9058-28a1e53944db",
+                "height": 28
+              },
+              {
+                "id": "415e5161-b450-4aa6-b8b7-6a64900debaa",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Req ID",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Requirement Title",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "value": "Design Requirement",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "value": "Test Type",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "value": "Upstream System Requirement",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "DR-4008",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "IPA Chemical Compatibility",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "value": "When subjected 55.5% isopropyl alcohol (IPA), throughout the expected service life, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "value": "Type Testing",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "value": "604 - The system shall be cleanable using standard hospital cleaning and disinfectant agents without compromising its functional safety or integrity.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "DR-4009",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "Ethanol Chemical Compatibility",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "value": "When subjected 27.3% ethanol, throughout the expected service life, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "value": "Type Testing",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "DR-4010",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "Hydrogen Peroxide Compatibility",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "value": "When subjected 3% hydrogen peroxide, throughout the expected service life, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "value": "Type Testing",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "DR-4011",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "Sodium Hypochlorite Compatibility",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 2,
+                "value": "When subjected to 1.1% sodium hypochlorite, throughout the expected service life, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 3,
+                "value": "Type Testing",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "151ffa2c-513b-457c-816d-9393a48dc38b",
+      "title": "Scope",
+      "order": 2,
+      "collapsed": false,
+      "blocks": [
+        {
+          "id": "b0c5a608-0116-45d7-a65f-5c8dd8fcba30",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "7915e5ff-3bf5-4834-b337-706305d68f20",
+                "width": 120
+              },
+              {
+                "id": "aee4dd43-556f-46b2-a0dd-998a3c08789f",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "a8d5e0b8-6865-4240-bfb1-9ded14aa2e1d",
+                "height": 28
+              },
+              {
+                "id": "ddcbe53b-99ce-4642-be5a-42c95ff3aa04",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "This protocol applies to chemical compatibility design verification of the IDS system components related to the requirements to be tested. These components are indicated below.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "IDS Display UnitCMC AssemblyIDS Enclosure Cover Bracket",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "(DUT) System Components:Probe &  Probe ConnectorIDS Probe Panel SubassemblyIDS Electrical AssemblyIDS Bracket SubassemblyCMC-A-020_CMC AssemblyFansPDUVESA BracketIDS Display UnitAdhesive Transfer TapeCPUSpeakerIDS HandleIDS Enclosure CoverProbe HolderCover GasketPorts PanelScreen BracketMid BracketProbe PanelU Grommet",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "4ed12346-76bb-4b74-ba25-a4646c10a7ac",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 1: CMC-A-020 CMC Assembly",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 1: CMC-A-020 CMC Assembly"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0cd3f42a-0c05-4304-a7ea-c706f1463aa5",
+      "title": "Test Procedure(s)",
+      "order": 3,
+      "collapsed": false,
+      "blocks": [
+        {
+          "id": "07cff5d1-de3e-4ae7-baa0-9d8575283947",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "General test record note:",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "a3124010-5a60-431a-a9ca-8a899b3a8a79",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "For each verification activity performed, the tester shall record execution-specific evidence sufficient to identify what was assessed, how it was assessed, and whether the acceptance criteria were met within a Test Record with a valid DRN as per SOP-001 Document & Data Control.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "For each verification activity performed, the tester shall record execution-specific evidence sufficient to identify what was assessed, how it was assessed, and whether the acceptance criteria were met within a Test Record with a valid DRN as per SOP-001 Document & Data Control."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "f6227ee3-eb95-447a-8e52-6886ec32fdb6",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "At a minimum, record:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "At a minimum, record:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "e2f895c3-a6fe-4f7f-a482-be618cf98017",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "3fba9abf-a1c1-45dc-97f0-0227bf1e3b0b",
+                "text": "Test section and design requirement reference;"
+              },
+              {
+                "id": "0a4f4b11-2064-42b3-8bae-b20f733fdce2",
+                "text": "Date of assessment and tester name;"
+              },
+              {
+                "id": "3e47f9f5-abc2-4c90-9d9d-d1682da5fe54",
+                "text": "DUT identifiers, revision, serial number or unique sample ID, build state, and submitted-build configuration actually used;"
+              },
+              {
+                "id": "c7dd8a08-0492-4b26-99f2-6d989478fcd7",
+                "text": "Equipment identification and calibration or verification status where equipment status affects acceptance;"
+              },
+              {
+                "id": "31188728-2ba3-4aed-8c0e-90f4e8ab4950",
+                "text": "Exposure agent, exposure location, cycle timing, lighting condition, observations, photographs, and reviewed evidence;"
+              },
+              {
+                "id": "306c4e58-40b9-4223-b378-bf4686d03771",
+                "text": "Deviations, limitations, incomplete assessments, invalid test runs, and repeat-test rationale, where applicable; and"
+              },
+              {
+                "id": "1cbf5f80-d6e4-4efc-874d-013ca987b03c",
+                "text": "Pass/fail outcome against the applicable acceptance criteria."
+              }
+            ]
+          }
+        },
+        {
+          "id": "8da4b661-f2fe-4d7f-9042-9d0fc62e5d3d",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Chemical Handling Workflow",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "e25a1045-f748-4359-9fb0-c75f8c6c452c",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Since all chemicals to be tested will be tested with the exact method a common test method has been developed in Section 3.3. Due to the nature of handling chemicals the following guidelines must be adhered to:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Since all chemicals to be tested will be tested with the exact method a common test method has been developed in Section 3.3. Due to the nature of handling chemicals the following guidelines must be adhered to:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "673e14e0-91ae-4f22-b6a1-71a3decf18e0",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "a2cf324e-1285-42e9-834f-d8e97a1f4a3d",
+                "text": "When handling chemicals, it is mandatory to follow SOG-015 Chemicals document, wear required PPE (gloves, safety glasses, coat) and ensure the area of testing is within a well-ventilated area."
+              },
+              {
+                "id": "8abbf627-8257-4309-953b-3c3658b4f637",
+                "text": "Each chemical exposure test will follow this test procedure exactly."
+              },
+              {
+                "id": "31942c78-bfc4-408a-8168-e93fb3047e98",
+                "text": "Different chemicals shall not be handled or used simultaneously."
+              },
+              {
+                "id": "cab023b5-1d0b-45fe-ac96-6943e41cbb0d",
+                "text": "Only one chemical type shall be present in the test area at a single time to avoid mixing or hazardous situations."
+              },
+              {
+                "id": "c67fc343-839e-4b91-a669-a20ebb393c99",
+                "text": "Chemicals and areas of the IDS to be tested must be labelled explicitly and immediately visible"
+              },
+              {
+                "id": "4089c066-ec7a-4afb-bc4a-6892799cda61",
+                "text": "No chemical shall be tested on an area of the IDS which has had a different chemical exposure to avoid mixing, and invalid results"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e188fc25-1d2d-4d28-a466-14afea1d9aaf",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "SAFETY WARNING:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "SAFETY WARNING:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4e7c85e6-af42-4784-94ab-f4cec5f94d1e",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "6d9d3073-3b75-43ad-b696-8d2694c848cb",
+                "text": "In the event of accidental exposure or mixing of chemicals, the tester must immediately vacate the area and alert the WHS and Chemicals representative."
+              }
+            ]
+          }
+        },
+        {
+          "id": "5448b2c3-154a-4c49-8c63-647ddc7b7058",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Equipment and Cleaning Solution Preparation",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "e4869396-691a-4626-b476-94fa2a89fdf3",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "f31f2653-a023-44af-a79a-b8e8a3afa872",
+                "width": 120
+              },
+              {
+                "id": "6deac629-8c6b-4cce-8c46-a8934baf4baa",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "71dd0504-1fa1-4f64-8745-f0ac6fdb0b4c",
+                "height": 28
+              },
+              {
+                "id": "24fd00b7-d25a-4f09-9865-499df8273417",
+                "height": 28
+              },
+              {
+                "id": "7b31ba00-c060-40d1-985d-4274522f00ed",
+                "height": 28
+              },
+              {
+                "id": "55fc51f4-4261-4530-b8ba-954f7bb3de39",
+                "height": 28
+              },
+              {
+                "id": "d21022fd-d218-45ac-bdd9-77e7761964b0",
+                "height": 28
+              },
+              {
+                "id": "2b7e8c7c-14ae-4761-b7bd-3a1f21cfbfea",
+                "height": 28
+              },
+              {
+                "id": "828a7086-a3c9-4350-9423-033fb4850014",
+                "height": 28
+              },
+              {
+                "id": "44bba323-a512-4b20-a5dc-543f80a17b14",
+                "height": 28
+              },
+              {
+                "id": "6e3a54c9-2369-4873-b795-823f0c9fc95c",
+                "height": 28
+              },
+              {
+                "id": "2f9aeff1-c13f-41a3-bf7c-e9b396ae07c0",
+                "height": 28
+              },
+              {
+                "id": "da9221ab-8079-4c25-a29a-17ff96a29ae9",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Description",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Requirement / Status",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "Mechanical Equipment",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "None",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "Cleaning Solution Preparation Equipment",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "Measuring Beaker (≥500ml Capacity)",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "Laboratory Grade Glass",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 0,
+                "value": "Polypropylene Funnel",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 1,
+                "value": "N/A",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 0,
+                "value": "Deionised Water",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 1,
+                "value": "Within shelf life from date opened",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 0,
+                "value": "≥ 55.5% Pure IPA",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 1,
+                "value": "Within shelf life from date opened",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 0,
+                "value": "≥ 27.3% Pure Ethanol",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 1,
+                "value": "Within shelf life from date opened",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 9,
+                "col": 0,
+                "value": "≥ 3% Hydrogen Peroxide",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 9,
+                "col": 1,
+                "value": "Within shelf life from date opened",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 10,
+                "col": 0,
+                "value": "≥ Sodium Hypochlorite Compatibility",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 10,
+                "col": 1,
+                "value": "Within shelf life from date opened",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "6a56dfa5-367d-44dc-8e88-c2eaf500f548",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Cleaning Solution Preparation",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "45fcfc9f-67c0-4370-86a1-2086541b7281",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Mandatory Initial steps to follow before proceeding with any of the chemical solution mixing:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mandatory Initial steps to follow before proceeding with any of the chemical solution mixing:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "292504b0-1d18-4f83-bf6f-c777480e3f19",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "32418dfc-cef3-4718-ac3b-8548b7c2fc3e",
+                "text": "Confirm that chemical training has been completed"
+              },
+              {
+                "id": "0f8ec2ab-51f8-4cca-b1ae-ee6929eee435",
+                "text": "Confirm that SOG-015 has been read and understood"
+              },
+              {
+                "id": "464d7cba-cf3c-44bb-b4cf-1f20c80e5ac5",
+                "text": "Read and understand the Safety Data Sheet for each chemical which can be found on the IDE server [Ref. 5] - [Ref. 8]."
+              },
+              {
+                "id": "07bf1a97-4318-4b30-b621-2b581e71f745",
+                "text": "Storage of each chemical can be found within their risk assessment documents [Ref. 9]-[Ref. 12]."
+              },
+              {
+                "id": "9540131d-e63f-4ca2-8e53-1371e3ebb0f0",
+                "text": "Ensure that the required PPE is being worn [Ref. 13]."
+              },
+              {
+                "id": "3a660b02-95e6-4dd9-b97c-8be113c59d12",
+                "text": "Clean the working area, ensuring no other chemicals and obstructions are within the designated test area"
+              },
+              {
+                "id": "3e399dec-c656-451e-9e03-766cae36db4a",
+                "text": "Gather the chemical to be mixed"
+              },
+              {
+                "id": "7bd95763-67ab-4fe8-9303-6af0a0d1d627",
+                "text": "If the chemical concentration is not exactly the required testing concentration then gather the deionised water for mixing"
+              },
+              {
+                "id": "a4706022-90d5-4f4e-8273-6ee3c0ee0ba0",
+                "text": "Ensure measuring beaker and funnel are clean and dry with no residual solution or chemicals within."
+              }
+            ]
+          }
+        },
+        {
+          "id": "943a975c-8171-4ac1-9e55-b31f5e572b41",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The following preparation steps follow on from the previous steps for all chemical solution being mixed. Only one chemical mixing shall be mixed at a time, with clean and dry equipment, to prevent a hazardous chemical reaction.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The following preparation steps follow on from the previous steps for all chemical solution being mixed. Only one chemical mixing shall be mixed at a time, with clean and dry equipment, to prevent a hazardous chemical reaction."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "dd4ac3d2-57e5-43c1-bc84-44d2675c3673",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The Chemicals to be mixed are listed below:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The Chemicals to be mixed are listed below:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "415df15d-aaa5-4767-a303-d013522000dd",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "55% IPA Solution",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "f30f66fa-3e66-4908-98e1-a4d651c85311",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "To create the 55.5% IPA solution, follow the appropriate steps",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "To create the 55.5% IPA solution, follow the appropriate steps"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "5ae97e71-e4ff-401d-b190-c1d5d71185c4",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "69f7a18b-a761-4cfc-ba4c-e21be1c8e004",
+                "text": "Record the concentration of the IPA being used"
+              },
+              {
+                "id": "c61e0b63-e776-44a9-99ee-a5c576f674d1",
+                "text": "Determine the volume of solution intended to be mixedRecommended that 500ml of solution is created to cover multiple cycles and appropriately soak clothes for wrapping the system in later steps."
+              },
+              {
+                "id": "1e150e8c-137c-4565-9d15-eed3c86efc48",
+                "text": "Calculate how much water needs to be added to the solutionUse the dilution equation to work out how much deionised water to add to the beaker to reach the required concentration for a certain volume:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cd089812-62fc-427f-a777-bbdd54927f04",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "ec26d53f-d71b-4bcc-be84-f176abfe72d0",
+                "width": 120
+              },
+              {
+                "id": "3c5c8b04-6c40-4fc0-aef7-d768cf46697a",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "95205427-9542-4e86-87f0-f6b2e800ab56",
+                "height": 28
+              },
+              {
+                "id": "23c2f520-09b4-497a-af2b-65fea2deb592",
+                "height": 28
+              },
+              {
+                "id": "53134929-a997-475d-ba0d-551189f14117",
+                "height": 28
+              },
+              {
+                "id": "c22f62f3-12e8-44de-af9b-db018a3b1466",
+                "height": 28
+              },
+              {
+                "id": "ef54a9ba-b87c-4e1c-90fc-a237f8079369",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Symbol",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Meaning",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "starting chemical concentration",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "volume of starting chemical needed",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "target concentration",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "final total solution volume",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "1bb30673-9b9d-47bf-ab9e-4ff443ac7ce5",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "A worked example:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A worked example:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "68882ecc-12d8-4846-ba99-50aabf6d9c97",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "55.5%",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "55.5%"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "8eced6d6-c0e9-47f6-bc82-0314be4602a2",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "27.3% Ethanol Solution",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "21bf788a-ae22-4efa-9286-52f8f58635ff",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "3% Hydrogen Peroxide Solution",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "e3b09444-af4b-48b6-9e21-b1fb5627a2a0",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "1.1% Sodium Hypochlorite Solution",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "f6417654-5373-40bb-8029-9a6f57b3c6fa",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "DUT & Setup, and Chemical Test Area Designation",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "e5dd976f-7f3d-422f-ae3e-f8cd5ff37980",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "DUT",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "333ca52c-e772-4066-aea1-1068c71cc918",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The device under testing (DUT) is the latest approved and assembled IDS system (CMC-A-020)",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The device under testing (DUT) is the latest approved and assembled IDS system (CMC-A-020)"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "879471e1-b410-4709-bf4f-74d6b11806c7",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "SETUP",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "94604c31-3802-483d-9be0-f596f942c1d5",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The DUT is to be mounted to a stable hard surface in its intended orientation as illustrated in Figure 2.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The DUT is to be mounted to a stable hard surface in its intended orientation as illustrated in Figure 2."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ab2411db-0dc1-4e66-9f0c-d670532f686c",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "1c075321-d79b-492f-ad93-6af3bceb151e",
+                "text": "Confirm the DUT is clean, dry, undamaged, and representative of the submitted build."
+              },
+              {
+                "id": "cd37c5a5-9125-4fdc-a135-a25d43d151db",
+                "text": "Define the mandatory exposure location at the corner of the IDS display so that the exposed area includes both enclosure material and display glass."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bea4fc20-148c-41b1-8338-ff64d8e62b53",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Display Unit",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Display Unit"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "57ec7ab4-9cc3-4dfb-83d7-fb594daf7e1d",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "IDS Assembly",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "IDS Assembly"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "7c0223ab-72d7-4935-ac2a-851233218a45",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Mounting Arm System",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mounting Arm System"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "7abd066c-921a-4547-b411-3bc8ba24fedb",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 2: Intended Orientation & Setup of the IDS",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 2: Intended Orientation & Setup of the IDS"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4d1d67a4-7dec-4efa-a099-a6bc430061cb",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Chemical Test Area Designation",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "03fc8cf5-cb34-4c7f-9dd6-7d0ada1878b2",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The exposure location shall be one corner of the IDS display such that the exposed area includes both enclosure material and display glass (Figure 2). Each chemical verification test shall be performed on a separate corner, or a different IDS sample, to avoid accidental mixture of chemicals. Different chemicals shall not be tested at the same time, on the same exposure area, or in any manner that could allow accidental mixing of chemicals.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The exposure location shall be one corner of the IDS display such that the exposed area includes both enclosure material and display glass (Figure 2). Each chemical verification test shall be performed on a separate corner, or a different IDS sample, to avoid accidental mixture of chemicals. Different chemicals shall not be tested at the same time, on the same exposure area, or in any manner that could allow accidental mixing of chemicals."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "5cd1dcdf-4a4e-4360-970b-76795bee13dc",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "05324383-6ee5-492e-862f-2c09c8979535",
+                "text": "Use tape to border the exposed area to prevent external areas being affected by the chemical solution"
+              },
+              {
+                "id": "630a3fc2-6bc4-42b8-a87b-92bf206e26c0",
+                "text": "Identify the adjacent unexposed control area for visual comparison."
+              },
+              {
+                "id": "13b5e2fc-cd04-4a02-ab16-67b4df2f9567",
+                "text": "Prepare the 55.5% IPA solution, lint-free cloths, plastic bag or polyethylene film, tape, timer, camera, and inspection lighting.If required, the chemical concentration can be achieved by mixing a pure higher concentration solution with distilled or deionised water."
+              },
+              {
+                "id": "e95e8aea-f11a-4697-826a-c6a307ece494",
+                "text": "Record DUT identification, build state, exposure location, control area, ambient conditions, and pre-test condition."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e78f7ce5-6786-4c0c-9f9e-e3c39bef0ef2",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Display Glass",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Display Glass"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1e549307-3aef-477c-aceb-991b414704ff",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Enclosure Material",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Enclosure Material"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "25e181d9-aac6-4a5d-9011-5034f94c956b",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 3: Indication of IDS corners available for testing",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 3: Indication of IDS corners available for testing"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "f362107d-d2db-4cd3-9347-ab046ecde734",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Chemical Compatibility",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "8ccc6fc6-0a7f-44eb-aa5a-a25f10c74e56",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Design Requirement",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "d2c9bc6f-7e63-4dfd-9925-dce5fb4bae14",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "DR-4008 - IPA Chemical Compatibility: When subjected to 55.5% isopropyl alcohol (IPA), after two cycles of 10 minute wiping and a > 12 hour exposure cycle, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation. [Ref. 1]",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "DR-4008 - IPA Chemical Compatibility: When subjected to 55.5% isopropyl alcohol (IPA), after two cycles of 10 minute wiping and a > 12 hour exposure cycle, the IDS materials and display glass shall maintain structural integrity without visible cracking or material degradation. [Ref. 1]"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "b7a858e4-d0a0-457b-bd3f-cc3b767f7a8b",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "604 - The system shall be cleanable using standard hospital cleaning and disinfectant agents without compromising its functional safety or integrity. [Ref. 1]",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "604 - The system shall be cleanable using standard hospital cleaning and disinfectant agents without compromising its functional safety or integrity. [Ref. 1]"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6c684540-ad61-47ae-8375-1a7a87e60bd0",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Test Overview",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "caf28c29-1f7c-4d5d-b1f5-6e0963e2d819",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Test Aim: Determine whether IDS materials and display glass are compatible with cleaning chemicals after the defined two-cycle wiping and soaked exposure sequence.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Test Aim: Determine whether IDS materials and display glass are compatible with cleaning chemicals after the defined two-cycle wiping and soaked exposure sequence."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "f88cbc24-d420-4ea6-8326-51bb311713b3",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The test shall use the Common Chemical Compatibility Exposure Method in Section 3.2..",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The test shall use the Common Chemical Compatibility Exposure Method in Section 3.2.."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "d369d01e-d778-4160-a8af-e1bb8b232f05",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "DUT & Sample Selection & Justification",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "00c34929-a385-435e-a11e-673c078c053b",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "DUT",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "429b2790-e733-4f86-aedb-0871460943aa",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The DUT shall be one representative IDS assembly [Ref. 2].",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The DUT shall be one representative IDS assembly [Ref. 2]."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "7465e71e-014b-4098-ae57-a30a1fa0da04",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Figure 4: Representative IDS Assembly For Testing",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Figure 4: Representative IDS Assembly For Testing"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "804a1ce2-1e57-4bee-9ca8-cc0352b58282",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Sample Size, Condition and Justification",
+            "level": 4,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "4c0d386b-ceda-4dcf-8d12-9b086b42eb7e",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "927c652d-e295-4ed4-b40c-13933b728928",
+                "width": 120
+              },
+              {
+                "id": "5eb435c3-6c8a-420b-86be-f9b9b6d8c65e",
+                "width": 120
+              },
+              {
+                "id": "28ca30d9-ae6a-4df1-ac9f-688db3bfd7eb",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "7e56567e-01a4-425d-a45e-4de07f83f125",
+                "height": 28
+              },
+              {
+                "id": "d744b412-dbbf-4528-91dd-bd29b0d568e2",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Sample Size",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Sample Condition / Configuration",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "value": "Justification",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "1",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "DUT shall be clean, dry, undamaged, production-equivalent, and representative of the submitted build. The mandatory exposure location shall include both enclosure material and display glass at the IDS display corner.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "value": "Type test of the submitted IDS assembly under the specified IPA wiping and soaked exposure sequence. One DUT verifies the submitted material, display glass, surface finish, assembly interface, and exposure location under the defined worst-case local contact condition.",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "77dbfd99-2a16-41fa-86c4-fa27eb7d522c",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Equipment / Resources",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "6f91558e-a751-41e0-a4ed-7d47c1b23205",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "b1ab7121-148b-4341-b57c-503e80233142",
+                "width": 120
+              },
+              {
+                "id": "b1d0986d-54e0-4bbd-94ae-2b6092afe791",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "4dcb6722-8fac-45a2-abe8-dc6e71af0c2d",
+                "height": 28
+              },
+              {
+                "id": "24c8ab17-0886-420c-8b8b-6b10f17bd6b8",
+                "height": 28
+              },
+              {
+                "id": "531a91e7-a0cc-4b0c-8e9c-0486355d0b5d",
+                "height": 28
+              },
+              {
+                "id": "b35e12be-179c-4a1c-bd18-bb1e6207bd88",
+                "height": 28
+              },
+              {
+                "id": "a5a057f2-e8b4-4abc-8392-9a8e0d95d700",
+                "height": 28
+              },
+              {
+                "id": "9a50d1ec-1376-42c6-9574-c4ee94927dfa",
+                "height": 28
+              },
+              {
+                "id": "9ea7b375-298e-4a10-9292-93af3d937897",
+                "height": 28
+              },
+              {
+                "id": "22a8f1a3-7609-44e2-b072-7778c97dc832",
+                "height": 28
+              },
+              {
+                "id": "4ef44489-55e4-4bd2-ae2e-a830818ddbc1",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Description",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Requirement / Status",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "55.5% IPA solution",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Prepared for test use",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "Clean lint-free cloths",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "Fresh cloths available for wiping",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "Clean paper towels",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "Fresh paper towels for soaking with chemical solution",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "Plastic bag or polyethylene film",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "Suitable for covering the soaked cloth and minimising evaporation",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 0,
+                "value": "Tape",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 1,
+                "value": "Suitable for securing chosen covering material to the DUT without obstructing the exposure area",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 0,
+                "value": "Timer",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 1,
+                "value": "Suitable for recording 10 minute wiping and greater than 12 hour exposure durations",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 0,
+                "value": "Digital camera",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 1,
+                "value": "Suitable for before and after photographs",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 0,
+                "value": "1 x DUT",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 1,
+                "value": "Production equivalent",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "772a3fcc-86bc-4f4d-81f3-66ff869f2de2",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Setup",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "af364a3a-4e58-4a53-b7a8-94c42c594196",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "caceccc7-9ef5-444f-9ab2-b5483d0ff1d4",
+                "text": "Confirm the DUT is clean, dry, undamaged, and representative of the submitted build."
+              },
+              {
+                "id": "829420e8-6065-4f8b-895c-6ad606da33e3",
+                "text": "Define the mandatory exposure location at the corner of the IDS display so that the exposed area includes both enclosure material and display glass."
+              }
+            ]
+          }
+        },
+        {
+          "id": "a8596ef2-5fb1-47d3-a2c2-3e2cb750f6b4",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "The exposure location shall be one corner of the IDS display such that the exposed area includes both enclosure material and display glass (Figure 2). Each chemical verification test shall be performed on a separate corner, or a different IDS sample, to avoid accidental mixture of chemicals. Different chemicals shall not be tested at the same time, on the same exposure area, or in any manner that could allow accidental mixing of chemicals.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The exposure location shall be one corner of the IDS display such that the exposed area includes both enclosure material and display glass (Figure 2). Each chemical verification test shall be performed on a separate corner, or a different IDS sample, to avoid accidental mixture of chemicals. Different chemicals shall not be tested at the same time, on the same exposure area, or in any manner that could allow accidental mixing of chemicals."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4ed5d2c0-3d9a-462f-887f-3a6f815c820f",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "d2ba44e2-5e45-4abd-94e2-9f7f51608e9f",
+                "text": "Use tape to border the exposed area to prevent external areas being affected by the chemical solution"
+              },
+              {
+                "id": "fcf64909-b229-409e-b890-1211467cb048",
+                "text": "Identify the adjacent unexposed control area for visual comparison."
+              },
+              {
+                "id": "ead7c1f9-73aa-4430-b1a1-3c02898eda21",
+                "text": "Prepare the 55.5% IPA solution, lint-free cloths, plastic bag or polyethylene film, tape, timer, camera, and inspection lighting.If required, the chemical concentration can be achieved by mixing a pure higher concentration solution with distilled or deionised water."
+              },
+              {
+                "id": "1ed64db1-aa76-44e0-bf36-326a746860ca",
+                "text": "Record DUT identification, build state, exposure location, control area, ambient conditions, and pre-test condition."
+              }
+            ]
+          }
+        },
+        {
+          "id": "884f1728-bfd5-4a1a-b2dc-4c62a0971fdc",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Method",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "54549842-5449-4150-bde4-be6c76230902",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "9db51ecb-1b47-477c-8ffc-cc723d3701a5",
+                "text": "Utilise 1 of the following chemicals in Table 1 for testing. Ensure chemicals do not mix as per instructions in 3.1.5"
+              }
+            ]
+          }
+        },
+        {
+          "id": "a781ff56-c041-4d03-8fee-9e628d0ba8f6",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table 1. Cleaning Chemicals to be tested",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table 1. Cleaning Chemicals to be tested"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "95ba533e-3615-45a7-9bc3-a9fb48f9e805",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "232a5517-b6ab-4618-90fd-d745e2eceede",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "2d2717e7-46e4-4c6e-8e83-22d54c1f9476",
+                "height": 28
+              },
+              {
+                "id": "25544054-f880-433d-8b0b-a1096e8d53f6",
+                "height": 28
+              },
+              {
+                "id": "06dae2dc-9323-40c4-9df9-cb728da070a3",
+                "height": 28
+              },
+              {
+                "id": "ed68ee12-33f1-401e-90d9-0415bc29c1a2",
+                "height": 28
+              },
+              {
+                "id": "0fcfc3be-9354-463a-8c7d-054ebf320862",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Chemical",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "55.5% IPA solution",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "27.3% ethanol",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "3% hydrogen peroxide solution",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "1.1% sodium hypochlorite solution",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "b1ff88df-9f0c-498c-8e5b-c5911fbbe96f",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "da4d238f-7b6d-4dee-a8cf-b6550c24fbc3",
+                "text": "Perform the exposure verification method using the Common Chemical Compatibility Exposure Method in Section 3.2.Repeat steps 1 to 2 until all cleaning chemicals in Table 1 has been tested."
+              }
+            ]
+          }
+        },
+        {
+          "id": "b7eb0ae0-beba-4004-bde7-a83d0c2399f7",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Acceptance Criteria",
+            "level": 3,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "f6c960cf-0362-42d3-9bf9-b5df6bf2cb59",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "PASS: No visible cracking or signs of material degradation that compromises the intended function or usability of the device.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "PASS: No visible cracking or signs of material degradation that compromises the intended function or usability of the device."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "7e8ddbbe-c182-42f3-975b-5356ec7488bb",
+          "styleId": "4e1e842e-d1be-479d-8a4c-074c07730bfe",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "heading",
+          "content": {
+            "text": "Common Chemical Compatibility Exposure Method",
+            "level": 2,
+            "numberingEnabled": false,
+            "includeInToc": true
+          }
+        },
+        {
+          "id": "8eea23a2-4430-4d1d-b169-5ced7e0e3346",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "SAFETY WARNING: Do not mix cleaning or disinfecting agents. Mixing chemicals such as IPA, ethanol, hydrogen peroxide, and sodium hypochlorite can generate hazardous or toxic vapours. Always follow SOG-015 Chemicals.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "SAFETY WARNING: Do not mix cleaning or disinfecting agents. Mixing chemicals such as IPA, ethanol, hydrogen peroxide, and sodium hypochlorite can generate hazardous or toxic vapours. Always follow SOG-015 Chemicals."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "609313ce-0023-4171-a5ac-10fefb72a9df",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Take all precautions necessary to prevent exposure.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Take all precautions necessary to prevent exposure."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "b789b786-85e2-49a7-81c2-aaf4c90b173a",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "fd0cc988-58e0-427f-9018-f94bae464a78",
+                "text": "Perform only one chemical exposure test at a time unless physically separated and controlled to prevent mixing of chemicals."
+              },
+              {
+                "id": "a581a0f1-17eb-4de9-8128-b69c058f2109",
+                "text": "Wear the required PPE (gloves, safety glasses, coat)"
+              },
+              {
+                "id": "25a5039a-8a67-421f-89d3-160b6dba94f7",
+                "text": "Perform test in ventilated environment"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e015e4e6-3838-4e8e-8065-de6fe7eca942",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "For the following method, ensure to record:",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "For the following method, ensure to record:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6f526cf4-73a8-4f04-99dc-4778778d51bd",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "bulletList",
+          "content": {
+            "items": [
+              {
+                "id": "2cdf1d22-31a1-464a-bb23-391e5fb05fa7",
+                "text": "Chemical identity"
+              },
+              {
+                "id": "5cbc9f07-f282-4736-8576-e1f29ddb132f",
+                "text": "Active ingredient percentage within the test solution"
+              },
+              {
+                "id": "97c92a16-3994-4a60-ab8c-9aea7272af5f",
+                "text": "Exposure start and finish times for each wiping and soaked exposure"
+              },
+              {
+                "id": "bddad72b-9d48-416a-a4a5-5894548ef4ab",
+                "text": "Photographs before and after test"
+              },
+              {
+                "id": "5d4d6570-2740-4da6-b7eb-f8ce03b2aae4",
+                "text": "Observations"
+              },
+              {
+                "id": "b2c3013b-af60-4a51-b7e5-c7dfa4f36760",
+                "text": "Deviations throughout the test"
+              }
+            ]
+          }
+        },
+        {
+          "id": "54c69503-36e3-47c7-9e8a-d7aeb25e41db",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "85130050-50ff-4ace-b4a2-5b0346f68b3d",
+                "text": "Inspect and photograph the defined exposure area and the adjacent unexposed control area before exposure."
+              },
+              {
+                "id": "edf90a39-8a18-4714-b1ec-e8e631f93dc9",
+                "text": "Cycle 1 wiping: Saturate a clean lint-free cloth with the specified chemical to be tested. Continuously wipe the defined exposure area for 10 minutes and ensure that both the display glass and enclosure material maintain a visibly wet surface, within the demarcated area, throughout the wiping period."
+              },
+              {
+                "id": "1e45a6ff-a40f-433f-ba63-6856c4d39c87",
+                "text": "Cycle 1 soaked exposure: Saturate multiple paper cloths with the specified chemical. Place the cloths directly over the defined exposure area ensuring contact over the entire demarcated area. Ensure that the paper cloths are visibly saturated and wet with the solution."
+              },
+              {
+                "id": "e924b8b9-e1a0-4d2a-9d0b-9329ede346db",
+                "text": "Cover the cloths with a plastic bag or polyethylene film and secure the covering to the DUT using tape. Ensure that the tape is sealed around the edges of the plastic covering to minimise evaporation while maintaining continuous contact between the cloth and DUT."
+              },
+              {
+                "id": "1d32c573-f53a-4ac3-b28f-bae2822eb95c",
+                "text": "Leave undisturbed for > 12 hours."
+              },
+              {
+                "id": "41e49127-e05c-4d4a-8808-884c39f1520d",
+                "text": "Remove the cloth and plastic covering after the Cycle 1 soaked exposure. Examine the exposed area and adjacent unexposed control area for cracking, crazing, whitening, colour change, gloss change, clouding, swelling, softening, tackiness, deformation, delamination, and any other visible material degradation. Take photographs and notes on any observations."
+              },
+              {
+                "id": "ac578baf-0b2f-44ad-a986-600203fe7e6f",
+                "text": "Repeat steps 2 to 6 for cycle 2."
+              },
+              {
+                "id": "f2e06b6d-bdc5-41c6-bf80-6526c0064fb0",
+                "text": "Compare the exposed area against the area before exposure, after Cycle 1, and after Cycle 2 to assess effect of chemicals on device."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b198e5fb-3616-45d9-8b28-9225585daea3",
+      "title": "References",
+      "order": 4,
+      "collapsed": false,
+      "blocks": [
+        {
+          "id": "435aa041-82fb-49b6-a9c3-526a2f830f30",
+          "styleId": "cc8f3900-e2fb-470e-aab3-36f47660f874",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "numberedList",
+          "content": {
+            "items": [
+              {
+                "id": "af6898d1-3151-4b63-b07e-8b08384d4e24",
+                "text": "tm01cmc-im240221r4a - Traceability Matrix"
+              },
+              {
+                "id": "38b345a6-5fdd-42a9-897a-80f008d1ae41",
+                "text": "CMC-A-020 CMC Assembly"
+              },
+              {
+                "id": "9324fb32-175a-4153-a588-03da301c8772",
+                "text": "ver01cmc-gca260212r1 - iEcho24 CMC Design Verification Plan"
+              },
+              {
+                "id": "b714dd7f-0186-497b-bae4-d32154aa7b7e",
+                "text": "WID-008-02 - Sample Size Guidance Protocol"
+              },
+              {
+                "id": "882c4628-e649-4213-88c8-d57f000aa212",
+                "text": "CHEM-474 HYDROGEN PEROXIDE 3 - 8%"
+              },
+              {
+                "id": "ce339741-44c7-4451-88f0-ce121c06e6cc",
+                "text": "CHEM-475 12.5% sodium hypochlorite (2025)"
+              },
+              {
+                "id": "a3b5a338-b9d0-4e15-8c1f-002284e5bd71",
+                "text": "CHEM-454 Ethyl alcohol, Pure"
+              },
+              {
+                "id": "6ab9bbdd-cdce-45d4-8e70-1662c2940acd",
+                "text": "CHEM-358 Isopropyl Alcohol100-99-80-75-70 Percent MSDS"
+              },
+              {
+                "id": "a0c11770-9043-4449-9eb5-a95883994894",
+                "text": "ra01ide-im240208r1_IsoPropyl Alcohol Risk Assesment_signed"
+              },
+              {
+                "id": "0300a0f0-e9d6-4644-8e23-92f6f052fb6e",
+                "text": "ra01ide-oa260518r1_Risk Assessment Pure Ethyl Alcohol_SIGNED"
+              },
+              {
+                "id": "92db955b-d03e-4b6b-979c-1a3ba5f25d27",
+                "text": "ra03ide-spb260602r1_Risk Assessment 3% Hydrogen Peroxide"
+              },
+              {
+                "id": "513c0e83-ee3a-4c2f-b46f-be11544a392a",
+                "text": "ra01ide-spb260602r1_Risk Assessment 12.5% Sodium Hypochlorite"
+              },
+              {
+                "id": "3251aa32-a85b-48c7-9005-92db523ab43f",
+                "text": "SOG-015 Chemicals"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f31aeff8-3f46-49d4-8592-527da17aa875",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Refer to the latest approved revision unless otherwise indicated. Exact revisions, dates, and identifiers used during protocol execution shall be recorded in the applicable test record.",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Refer to the latest approved revision unless otherwise indicated. Exact revisions, dates, and identifiers used during protocol execution shall be recorded in the applicable test record."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "5e277a7d-abc9-451b-a033-365da2407122",
+      "title": "Abbreviations and Definitions",
+      "order": 5,
+      "collapsed": false,
+      "blocks": [
+        {
+          "id": "f0b8d969-5111-4794-9fdc-14dcfd6f15c8",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table 2 - Abbreviations",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table 2 - Abbreviations"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1cbd2743-5061-4971-af44-b0ba51a1c3e7",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "147b555e-864d-4357-98f3-ce10e2daea37",
+                "width": 120
+              },
+              {
+                "id": "fc08e32a-fff4-43ee-bed2-3499eb57f9fd",
+                "width": 120
+              },
+              {
+                "id": "cbaaf156-8bb4-4190-99e1-d402ede92f95",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "5c822f27-9cbf-428e-bfc3-51c0ab1d7698",
+                "height": 28
+              },
+              {
+                "id": "d8688da4-4efb-43ef-95d2-2bd5f76c62fa",
+                "height": 28
+              },
+              {
+                "id": "6d5b89d7-2616-490e-bea6-c75327ce9772",
+                "height": 28
+              },
+              {
+                "id": "2048b2eb-9e4b-4d59-8ee1-9b474a1ae4bb",
+                "height": 28
+              },
+              {
+                "id": "c5e2a48e-0448-4886-9a4d-077495eeb2a2",
+                "height": 28
+              },
+              {
+                "id": "491608b6-f268-4b7c-8156-1805df0c3b5f",
+                "height": 28
+              },
+              {
+                "id": "e8ed27e9-4f99-44a0-ae97-bd49316cf4a9",
+                "height": 28
+              },
+              {
+                "id": "ecb8f24a-148b-46b3-b636-495a48c26361",
+                "height": 28
+              },
+              {
+                "id": "18d70919-3ed5-4221-9ff7-1b327a9b33ce",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "DR",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Design Requirement",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "DRN",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Document Reference Number",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "DUT",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "Device Under Test",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "IDS",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "Integrated Display System",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "IEC",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "International Electrotechnical Commission",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 0,
+                "value": "IPA",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 1,
+                "value": "Isopropyl Alcohol",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 0,
+                "value": "N/A",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 1,
+                "value": "Not Applicable",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 0,
+                "value": "PPE",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 1,
+                "value": "Personal Protective Equipment",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 0,
+                "value": "RCM",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 1,
+                "value": "Risk Control Measure",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 8,
+                "col": 2,
+                "value": "",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        },
+        {
+          "id": "f8a769b4-0e75-4bc9-aa89-d8cee989a24e",
+          "styleId": "7602c470-f93a-41d2-8e33-7386157e5614",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "paragraph",
+          "content": {
+            "text": "Table 3 - Definitions",
+            "alignment": "left",
+            "indentation": 0,
+            "tiptap": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Table 3 - Definitions"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "95cb26c9-7c32-4745-a6d5-3a1eb8fcec83",
+          "styleId": "b7616fa3-9e14-4fd2-aa6b-96bd5333b8b8",
+          "properties": {
+            "visible": true,
+            "locked": false,
+            "spacingBefore": 0,
+            "spacingAfter": 0,
+            "pageBreakBefore": false,
+            "keepWithNext": false
+          },
+          "metadata": {
+            "createdAt": "2026-07-06T23:18:58.662Z",
+            "modifiedAt": "2026-07-06T23:18:58.662Z"
+          },
+          "type": "table",
+          "content": {
+            "columns": [
+              {
+                "id": "52a28558-41d4-448d-934e-1da67b76157f",
+                "width": 120
+              },
+              {
+                "id": "f9189d32-7b0c-44fd-823b-96fcc9b8ae21",
+                "width": 120
+              }
+            ],
+            "rows": [
+              {
+                "id": "40fd9310-a32e-4def-842b-91f0aea1feea",
+                "height": 28
+              },
+              {
+                "id": "c87a08de-50bc-4ba0-8834-d5f12b06c5c1",
+                "height": 28
+              },
+              {
+                "id": "916b522a-0d9a-46c7-aca5-81b5830e6800",
+                "height": 28
+              },
+              {
+                "id": "741f3b21-6673-4a01-a8a1-5256d14410ac",
+                "height": 28
+              },
+              {
+                "id": "dd119153-1eed-4455-8bf2-3d0b6e8289a2",
+                "height": 28
+              },
+              {
+                "id": "c7bf6bf8-97ba-40e5-aa39-98440c476e90",
+                "height": 28
+              },
+              {
+                "id": "89274120-5551-497e-8c2f-b9ccf7f3c23d",
+                "height": 28
+              },
+              {
+                "id": "2cc236f6-b839-4a02-bf34-163049018053",
+                "height": 28
+              }
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "value": "Acceptance Criteria",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "value": "Conditions to be met for the verification activity to pass.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "value": "Device Under Test",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "value": "Physical IDS assembly or defined configuration assessed during verification.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "value": "Representative IDS Assembly",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "value": "IDS assembly that is production-equivalent and representative of the submitted build state.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "value": "Requirement Criticality",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "value": "Risk-based requirement classification recorded in the Traceability Matrix.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "value": "Sample Configuration",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "value": "The specific hardware, assembly state, labels, materials, surface finish, accessories, and settings relevant to the requirement being verified.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 0,
+                "value": "Test Method",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 5,
+                "col": 1,
+                "value": "Defined procedure used to perform the verification activity.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 0,
+                "value": "Test Record",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 6,
+                "col": 1,
+                "value": "Completed record of setup, reviewed files, observations, photographs, deviations, results, and pass/fail outcome.",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 0,
+                "value": "Type Test",
+                "rowSpan": 1,
+                "colSpan": 1
+              },
+              {
+                "row": 7,
+                "col": 1,
+                "value": "Deterministic verification of design compliance under defined conditions where the expected outcome is not intended to demonstrate manufacturing population capability.",
+                "rowSpan": 1,
+                "colSpan": 1
+              }
+            ],
+            "caption": "",
+            "headerRow": true,
+            "repeatHeaderRow": false,
+            "bandedRows": true,
+            "autofitMode": "auto",
+            "cellPadding": 4,
+            "borders": true
+          }
+        }
+      ]
+    }
+  ],
+  "assetRefs": [
+    {
+      "id": "8badde4a-09af-45b6-ae03-a0d9e1acffc6",
+      "filename": "image3.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\14b61976e3ba_image3.png"
+    },
+    {
+      "id": "d0aaa170-47cc-48c9-9727-96c0625669f2",
+      "filename": "image4.jpeg",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\f9e4915d61f9_image4.jpeg"
+    },
+    {
+      "id": "700252ae-8dad-4b28-b00d-da9b35131d64",
+      "filename": "image5.jpeg",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\f9e4915d61f9_image5.jpeg"
+    },
+    {
+      "id": "a05c4e28-76d2-4289-b2f8-c66dc78e06ce",
+      "filename": "image6.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\dad9bbb8f30d_image6.png"
+    },
+    {
+      "id": "245ac966-e71d-43f8-8a02-76a8a1923df1",
+      "filename": "image7.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\d61a39c5e8a4_image7.png"
+    },
+    {
+      "id": "c53c94e9-9765-48e7-ad0e-d07f39807e11",
+      "filename": "image8.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\dad9bbb8f30d_image8.png"
+    },
+    {
+      "id": "992a5608-8f50-4a7d-920a-fc43f0f821ef",
+      "filename": "image10.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\53890fdcf5c9_image10.png"
+    },
+    {
+      "id": "2f3f3402-a36f-44ed-a0f5-8b2378d34828",
+      "filename": "image2.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\a38dad3b303b_image2.png"
+    },
+    {
+      "id": "c36fe89b-b465-486a-8d17-55f79275325a",
+      "filename": "image11.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\63d57d4fe22c_image11.png"
+    },
+    {
+      "id": "164692ad-c83d-48d1-a5f2-e23405efbbd4",
+      "filename": "image12.svg",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\177a7be8187d_image12.svg"
+    },
+    {
+      "id": "5eebde1c-9b40-4a74-8e36-d7fde00abcca",
+      "filename": "image13.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\bd5093d2fa2c_image13.png"
+    },
+    {
+      "id": "2ee76877-7fb9-46ef-80cf-754f56311666",
+      "filename": "image14.svg",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\2b132b0250a6_image14.svg"
+    },
+    {
+      "id": "9ee2c139-75e5-4ed5-b9db-42a9205d5608",
+      "filename": "image9.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\d61a39c5e8a4_image9.png"
+    },
+    {
+      "id": "39db7a85-865a-439a-8f72-c06e01337967",
+      "filename": "image1.png",
+      "path": "D:\\Network_PC\\Programming\\DocCreator\\Projects\\1\\assets\\26b0a6ab5634_image1.png"
+    }
+  ],
+  "version": "1.0.0"
+}

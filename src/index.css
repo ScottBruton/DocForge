@@ -1,0 +1,257 @@
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+.ProseMirror {
+  outline: none;
+  min-height: 1.5rem;
+}
+
+.ProseMirror p {
+  margin: 0;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #71717a;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+/* Document preview — Word / PDF styled output */
+.preview-word-canvas {
+  background: #e8eaed;
+}
+
+.preview-word-page {
+  max-width: 816px;
+  min-height: 1056px;
+  background: #ffffff;
+  color: #1f1f1f;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%);
+  padding: 96px;
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+}
+
+.preview-pdf-canvas {
+  background: #525659;
+}
+
+.preview-pdf-page {
+  width: 816px;
+  min-height: 1056px;
+  background: #ffffff;
+  color: #1f1f1f;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 35%);
+  padding: 96px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 1.45;
+}
+
+.preview-doc-title {
+  font-size: 24pt;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+  color: #1f1f1f;
+}
+
+.preview-section {
+  margin-bottom: 1.5rem;
+}
+
+.preview-section-title {
+  font-size: 16pt;
+  font-weight: 600;
+  margin: 1.25rem 0 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #d1d5db;
+  color: #1f1f1f;
+}
+
+.preview-heading {
+  font-weight: 600;
+  margin: 0.75rem 0 0.35rem;
+  color: #1f1f1f;
+}
+
+.preview-heading-1 { font-size: 16pt; }
+.preview-heading-2 { font-size: 14pt; }
+.preview-heading-3 { font-size: 12pt; }
+.preview-heading-4,
+.preview-heading-5,
+.preview-heading-6 { font-size: 11pt; }
+
+.preview-paragraph {
+  margin: 0 0 0.5rem;
+}
+
+.preview-quote {
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid #9ca3af;
+  font-style: italic;
+  color: #374151;
+}
+
+.preview-code {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 10pt;
+  overflow-x: auto;
+}
+
+.preview-list {
+  margin: 0.35rem 0 0.75rem 1.5rem;
+  padding: 0;
+}
+
+.preview-list-bullet {
+  list-style: disc;
+}
+
+.preview-list-numbered {
+  list-style: decimal;
+}
+
+.preview-list-check {
+  list-style: none;
+  margin-left: 0.25rem;
+}
+
+.preview-list li {
+  margin-bottom: 0.2rem;
+}
+
+.preview-hr {
+  border: none;
+  border-top: 1px solid #9ca3af;
+  margin: 1rem 0;
+}
+
+.preview-hr-word {
+  border-top-style: dashed;
+}
+
+.preview-page-break-label {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 9pt;
+  color: #6b7280;
+}
+
+.preview-page-break-label::before,
+.preview-page-break-label::after {
+  content: ' — ';
+}
+
+.preview-equation {
+  margin: 0.75rem 0;
+  text-align: center;
+}
+
+.preview-figure {
+  margin: 0.75rem 0;
+}
+
+.preview-figure-frame {
+  display: flex;
+  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+.preview-figure-img {
+  max-width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+}
+
+.preview-figure-caption {
+  margin: 0.35rem 0;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+  color: #4b5563;
+}
+
+.preview-figure-placeholder {
+  font-size: 10pt;
+  color: #9ca3af;
+}
+
+.preview-table-wrap {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+}
+
+.preview-table-caption {
+  margin-bottom: 0.25rem;
+  font-size: 10pt;
+  font-style: italic;
+  color: #4b5563;
+}
+
+.preview-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10pt;
+}
+
+.preview-table-bordered td {
+  border: 1px solid #9ca3af;
+}
+
+.preview-table td {
+  padding: 4px 6px;
+  vertical-align: top;
+}
+
+.preview-table-header {
+  font-weight: 600;
+  background: #f3f4f6;
+}
+
+.preview-pdf-canvas::-webkit-scrollbar-thumb,
+.preview-word-canvas::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+}
+
+.preview-pdf-canvas::-webkit-scrollbar-track,
+.preview-word-canvas::-webkit-scrollbar-track {
+  background: transparent;
+}
